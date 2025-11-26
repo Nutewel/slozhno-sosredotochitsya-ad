@@ -81,9 +81,9 @@
   border-block-end: 1px solid var(--button-color);
 }
 
-.theme-light .header__theme-menu-button_type_light.header__theme-menu-button_active,
-.theme-auto .header__theme-menu-button_type_auto.header__theme-menu-button_active,
-.theme-dark .header__theme-menu-button_type_dark.header__theme-menu-button_active {
+.header__theme-menu-button_type_light.header__theme-menu-button_active,
+.header__theme-menu-button_type_auto.header__theme-menu-button_active,
+.header__theme-menu-button_type_dark.header__theme-menu-button_active {
   border: 1px solid var(--button-color);
   pointer-events: none;
 }
