@@ -6,6 +6,9 @@
   --font-family: 'IBM Plex mono';
   --main-weight: 400;
   --accent-weight: 700;
+}
+
+:root:not(.theme-light):not(.theme-dark):not(.theme-auto) {
   --bg-color: #000028;
   --font-color: #F1B2CE;
   --accent-color: #FF0070;
@@ -15,4 +18,12 @@
   --button-hover: rgba(255, 0, 112, 0.4);
   --decor-color: #FF0070;
   --text-title-color: #000028;
+}
+
+:root:not(.theme-light):not(.theme-dark):not(.theme-auto) .page {
+  background-image: url('../images/cover-image-dark.png');
+}
+
+:root:not(.theme-light):not(.theme-dark):not(.theme-auto) .header__rec-element {
+  display: block;
 }

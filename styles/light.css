@@ -102,7 +102,7 @@
   }
 
   .theme-auto .header__theme-menu-button:focus-visible {
-    border-bottom: 1px solid var(--button-color);
+    border-block-end: 1px solid var(--button-color);
   }
 
   .theme-auto .header__theme-menu-button_active {
@@ -134,7 +134,7 @@
   }
 
   .theme-auto .link:hover {
-    border-bottom: 1px solid var(--font-color);
+    border-block-end: 1px solid var(--font-color);
   }
 
   .theme-auto .link:focus-visible {
