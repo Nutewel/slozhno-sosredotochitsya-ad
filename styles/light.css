@@ -1,5 +1,6 @@
 :root.theme-light {
   --bg-color: #FFF1F7;
+  --bg-image: url('../images/cover-image-light.png');
   --font-color: #353430;
   --accent-color: #FF8DCB;
   --title-color: #FFC2E6;
@@ -74,6 +75,7 @@
 @media (prefers-color-scheme: light) {
   .theme-auto {
     --bg-color: #FFF1F7;
+    --bg-image: url('../images/cover-image-light.png');
     --font-color: #353430;
     --accent-color: #FF8DCB;
     --title-color: #FFC2E6;
