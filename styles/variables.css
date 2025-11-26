@@ -16,17 +16,3 @@
   --decor-color: #FF0070;
   --text-title-color: #000028;
 }
-
-@media (prefers-color-scheme: light) {
-  :root:not(.theme-dark):not(.theme-light):not(.theme-auto) {
-    --bg-color: #FFF1F7;
-    --font-color: #353430;
-    --accent-color: #FF8DCB;
-    --title-color: #FFC2E6;
-    --section-title-color: #353430;
-    --button-color: #353430;
-    --button-hover: rgba(53, 52, 48, 0.4);
-    --decor-color: #353430;
-    --text-title-color: #353430;
-  }
-}

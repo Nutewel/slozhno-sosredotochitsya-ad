@@ -151,3 +151,18 @@
     text-shadow: 2px 2px 0 var(--accent-footer-light-desktop-color);
   }
 }
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: #FFF1F7;
+    --font-color: #353430;
+    --accent-color: #FF8DCB;
+    --title-color: #FFC2E6;
+    --section-title-color: #353430;
+    --button-color: #353430;
+    --button-hover: rgba(53, 52, 48, 0.4);
+    --decor-color: #353430;
+    --text-title-color: #353430;
+    --accent-footer-light-desktop-color: #ff0070;
+  }
+}
